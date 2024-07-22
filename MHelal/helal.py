@@ -8,7 +8,7 @@ API_ID = int("8186557")
 API_HASH = "efd77b34c69c164ce158037ff5a0d117"
 Bots = []
 off =None
-ch = "CH_ELMSRY" # يوزر قناتك
+ch = "A1DIIU" # يوزر قناتك
 DEVS = ["H_8_o", "H_8_o"] #يوزرات المطورين المصنع
 @Client.on_message(filters.private)
 async def me(client, message):
