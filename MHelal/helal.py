@@ -1,4 +1,4 @@
-#'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
+#'‹ ٰ💸 ⇣ سورس ليثون ⇣ 💸 › .'#
 import os
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
@@ -9,10 +9,10 @@ API_HASH = "efd77b34c69c164ce158037ff5a0d117"
 Bots = []
 off =None
 ch = "CH_ELMSRY" # يوزر قناتك
-DEVS = ["MohamedHelal_l", "DEV_AH6"] #يوزرات المطورين المصنع
+DEVS = ["H_8_o", "H_8_o"] #يوزرات المطورين المصنع
 @Client.on_message(filters.private)
 async def me(client, message):
-   if off:#'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
+   if off:#'‹ ٰ💸 ⇣ سورس  ⇣ 💸 › .'#
     if not message.from_user.username in DEVS:
      return await message.reply_text("الصانع معطل")
    try:
@@ -34,17 +34,17 @@ async def alivehi(client: Client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿️", url=f"https://t.me/EIUIS"),
-                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/UI_SB"),
+                InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿️", url=f"https://t.me/A1DIIU"),
+                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/ll0llld"),
             ],
             [
-                 InlineKeyboardButton(f"𝗗𝗘𝗩 𝗦𝗔𝗦𝗔 💎", url=f"https://t.me/DEV_SASA")
+                 InlineKeyboardButton(f"𝗗𝗘𝗩 𝗦𝗔𝗦𝗔 💎", url=f"https://t.me/A1DIIU")
             ]
         ]
     )
 
     await message.reply_photo(
-        photo="https://telegra.ph/file/d3d23e8cff24c7c1df1fe.jpg",
+        photo="https://telegra.ph/file/e98db958e796347fb7d4b.jpg",
         caption="",
         reply_markup=keyboard,
     )
@@ -89,7 +89,7 @@ async def makedhelal(client, message):
     try:
       Dev = int(ask.text)
     except:
-      return await message.reply_text("قم بارسال الايدي بشكل صحيح")#'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
+      return await message.reply_text("قم بارسال الايدي بشكل صحيح")#'‹ ٰ💸 ⇣ سورس ليثون ⇣ 💸 › .'#
   bot = Client(":memory:", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
   user = Client(api_id=API_ID, api_hash=API_HASH, session_name=str(SESSION))
   try:
@@ -145,7 +145,7 @@ async def bothelal(client, message):
    return
   o = 0
   text = "قايمه البوتات\n"
-  for x in Bots:#'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
+  for x in Bots:#'‹ ٰ💸 ⇣ سورس ليثون ⇣ 💸 › .'#
       o += 1
       text += f"{o}- @{x[0]}\n"
   if o == 0:
